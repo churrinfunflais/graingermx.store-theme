@@ -82,3 +82,8 @@
     transition: none;
   }
 }
+
+:global(.vtex-store-drawer-0-x-drawerContent){
+  height: 100%;
+  overflow: auto;
+}

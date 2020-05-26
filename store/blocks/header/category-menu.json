@@ -4,9 +4,9 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#more",
       "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-home"
     ]
   },
   "menu-item#category-apparel": {
@@ -16,11 +16,11 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
+        "type": "external",
+        "href": "https://www.grainger.com.mx/static/difusion-grainger/herramientas-electricas/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Catalogos digitales",
+        "text": "Catalogos digitales"
       }
     },
     "blocks": [
@@ -40,9 +40,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
     ]
   },
   "menu-item#category-apparel-clothing": {
@@ -98,10 +95,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/cotizador/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Cotizador Express",
+        "text": "Cotizador Express"
       }
     }
   },
@@ -116,7 +113,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "More",
-        "text": "More"
+        "text": "Todos los Productos"
       }
     },
     "blocks": [
@@ -125,7 +122,7 @@
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {
-      "width": "100%"
+      "width": "auto"
     },
     "children": [
       "flex-layout.row#menu-more"
@@ -134,17 +131,32 @@
   "flex-layout.row#menu-more": {
     "children": [
       "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-more-2",
+      "flex-layout.col#menu-more-3"
     ]
   },
   "flex-layout.col#menu-more-1": {
+    "props": {
+      "width": "auto"
+    },
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#more1"
     ]
   },
   "flex-layout.col#menu-more-2": {
+    "props": {
+      "width": "auto"
+    },
     "children": [
-      "info-card#home"
+      "vtex.menu@2.x:menu#more2"
+    ]
+  },
+  "flex-layout.col#menu-more-3": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#more3"
     ]
   },
   "vtex.menu@2.x:menu#more": {
@@ -166,7 +178,571 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "About us"
+        "text": "Test"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#more1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#10305",
+      "menu-item#1001",
+      "menu-item#1027",
+      "menu-item#1006",
+      "menu-item#23717",
+      "menu-item#1020",
+      "menu-item#1019",
+      "menu-item#1011",
+      "menu-item#1024",
+      "menu-item#1026",
+      "menu-item#24345"
+    ]
+  },
+  "vtex.menu@2.x:menu#more2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#1005",
+      "menu-item#1009",
+      "menu-item#1023",
+      "menu-item#1021",
+      "menu-item#1022",
+      "menu-item#1028",
+      "menu-item#1030",
+      "menu-item#1035",
+      "menu-item#1033",
+      "menu-item#1018",
+      "menu-item#1039"
+    ]
+  },
+  "vtex.menu@2.x:menu#more3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#1034",
+      "menu-item#1008",
+      "menu-item#27412",
+      "menu-item#1025",
+      "menu-item#1010",
+      "menu-item#1013",
+      "menu-item#1016",
+      "menu-item#1032",
+      "menu-item#1040",
+      "menu-item#1003",
+      "menu-item#1017"
+    ]
+  },
+  "menu-item#10305": {
+    "props": {
+      "id": "menu-item-10305",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/abrasivos",
+        "noFollow": true,
+        "tagTitle": "Abrasivos",
+        "text": "Abrasivos"
+      }
+    }
+  },
+  "menu-item#1001": {
+    "props": {
+      "id": "menu-item-1001",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adhesivos-selladores-y-cintas",
+        "noFollow": true,
+        "tagTitle": "Adhesivos, Selladores y Cintas",
+        "text": "Adhesivos, Selladores y Cintas"
+      }
+    }
+  },
+  "menu-item#1027": {
+    "props": {
+      "id": "menu-item-1027",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bombas",
+        "noFollow": true,
+        "tagTitle": "Bombas",
+        "text": "Bombas"
+      }
+    }
+  },
+  "menu-item#1012": {
+    "props": {
+      "id": "menu-item-1012",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calefacción-ventilación-aire-acondicionado-y-ref",
+        "noFollow": true,
+        "tagTitle": "Calefacción, Ventilación, Aire Acondicionado y Ref",
+        "text": "Calefacción, Ventilación, Aire Acondicionado y Ref"
+      }
+    }
+  },
+  "menu-item#1006": {
+    "props": {
+      "id": "menu-item-1006",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eléctrico",
+        "noFollow": true,
+        "tagTitle": "Eléctrico",
+        "text": "Eléctrico"
+      }
+    }
+  },
+  "menu-item#23717": {
+    "props": {
+      "id": "menu-item-23717",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrónica-aparatos-y-baterías",
+        "noFollow": true,
+        "tagTitle": "Electrónica, Aparatos y Baterías",
+        "text": "Electrónica, Aparatos y Baterías"
+      }
+    }
+  },
+  "menu-item#1020": {
+    "props": {
+      "id": "menu-item-1020",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/equipo-para-exteriores",
+        "noFollow": true,
+        "tagTitle": "Equipo para Exteriores",
+        "text": "Equipo para Exteriores"
+      }
+    }
+  },
+  "menu-item#1019": {
+    "props": {
+      "id": "menu-item-1019",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/equipo-para-oficinas",
+        "noFollow": true,
+        "tagTitle": "Equipo para Oficinas",
+        "text": "Equipo para Oficinas"
+      }
+    }
+  },
+  "menu-item#1011": {
+    "props": {
+      "id": "menu-item-1011",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herrajes",
+        "noFollow": true,
+        "tagTitle": "Herrajes",
+        "text": "Herrajes"
+      }
+    }
+  },
+  "menu-item#1024": {
+    "props": {
+      "id": "menu-item-1024",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herramientas-eléctricas",
+        "noFollow": true,
+        "tagTitle": "Herramientas Eléctricas",
+        "text": "Herramientas Eléctricas"
+      }
+    }
+  },
+  "menu-item#24345": {
+    "props": {
+      "id": "menu-item-24345",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiales-de-referencia-y-aprendizaje",
+        "noFollow": true,
+        "tagTitle": "Materiales de Referencia y Aprendizaje",
+        "text": "Materiales de Referencia y Aprendizaje"
+      }
+    }
+  },
+  "menu-item#1005": {
+    "props": {
+      "id": "menu-item-1005",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motores",
+        "noFollow": true,
+        "tagTitle": "Motores",
+        "text": "Motores"
+      }
+    }
+  },
+  "menu-item#1009": {
+    "props": {
+      "id": "menu-item-1009",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles-y-mobiliario",
+        "noFollow": true,
+        "tagTitle": "Muebles y Mobiliario",
+        "text": "Muebles y Mobiliario"
+      }
+    }
+  },
+  "menu-item#1023": {
+    "props": {
+      "id": "menu-item-1023",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/neumático",
+        "noFollow": true,
+        "tagTitle": "Neumático",
+        "text": "Neumático"
+      }
+    }
+  },
+  "menu-item#1021": {
+    "props": {
+      "id": "menu-item-1021",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pintura",
+        "noFollow": true,
+        "tagTitle": "Pintura",
+        "text": "Pintura"
+      }
+    }
+  },
+  "menu-item#1022": {
+    "props": {
+      "id": "menu-item-1022",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plomería",
+        "noFollow": true,
+        "tagTitle": "Plomería",
+        "text": "Plomería"
+      }
+    }
+  },
+  "menu-item#1028": {
+    "props": {
+      "id": "menu-item-1028",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/protección",
+        "noFollow": true,
+        "tagTitle": "Protección",
+        "text": "Protección"
+      }
+    }
+  },
+  "menu-item#1030": {
+    "props": {
+      "id": "menu-item-1030",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguridad",
+        "noFollow": true,
+        "tagTitle": "Seguridad",
+        "text": "Seguridad"
+      }
+    }
+  },
+  "menu-item#1035": {
+    "props": {
+      "id": "menu-item-1035",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicios-de-productos",
+        "noFollow": true,
+        "tagTitle": "Servicios de Productos",
+        "text": "Servicios de Productos"
+      }
+    }
+  },
+  "menu-item#1033": {
+    "props": {
+      "id": "menu-item-1033",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sin-categoria",
+        "noFollow": true,
+        "tagTitle": "SIN CATEGORIA",
+        "text": "SIN CATEGORIA"
+      }
+    }
+  },
+  "menu-item#1034": {
+    "props": {
+      "id": "menu-item-1034",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/soldadura",
+        "noFollow": true,
+        "tagTitle": "Soldadura",
+        "text": "Soldadura"
+      }
+    }
+  },
+  "menu-item#1008": {
+    "props": {
+      "id": "menu-item-1008",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sujetadores",
+        "noFollow": true,
+        "tagTitle": "Sujetadores",
+        "text": "Sujetadores"
+      }
+    }
+  },
+  "menu-item#27412": {
+    "props": {
+      "id": "menu-item-27412",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suministros-para-laboratorio",
+        "noFollow": true,
+        "tagTitle": "Suministros para Laboratorio",
+        "text": "Suministros para Laboratorio"
+      }
+    }
+  },
+  "menu-item#1025": {
+    "props": {
+      "id": "menu-item-1025",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/transmisión-de-fuerza",
+        "noFollow": true,
+        "tagTitle": "Transmisión de Fuerza",
+        "text": "Transmisión de Fuerza"
+      }
+    }
+  },
+  "menu-item#1010": {
+    "props": {
+      "id": "menu-item-1010",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herramientas-manuales",
+        "noFollow": true,
+        "tagTitle": "Herramientas Manuales",
+        "text": "Herramientas Manuales"
+      }
+    }
+  },
+  "menu-item#1013": {
+    "props": {
+      "id": "menu-item-1013",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hidráulico",
+        "noFollow": true,
+        "tagTitle": "Hidráulico",
+        "text": "Hidráulico"
+      }
+    }
+  },
+  "menu-item#1016": {
+    "props": {
+      "id": "menu-item-1016",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminación",
+        "noFollow": true,
+        "tagTitle": "Iluminación",
+        "text": "Iluminación"
+      }
+    }
+  },
+  "menu-item#1032": {
+    "props": {
+      "id": "menu-item-1032",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/instrumentos-de-prueba",
+        "noFollow": true,
+        "tagTitle": "Instrumentos de Prueba",
+        "text": "Instrumentos de Prueba"
+      }
+    }
+  },
+  "menu-item#1040": {
+    "props": {
+      "id": "menu-item-1040",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/insumos",
+        "noFollow": true,
+        "tagTitle": "Insumos",
+        "text": "Insumos"
+      }
+    }
+  },
+  "menu-item#1003": {
+    "props": {
+      "id": "menu-item-1003",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/limpieza",
+        "noFollow": true,
+        "tagTitle": "Limpieza",
+        "text": "Limpieza"
+      }
+    }
+  },
+  "menu-item#1017": {
+    "props": {
+      "id": "menu-item-1017",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lubricación",
+        "noFollow": true,
+        "tagTitle": "Lubricación",
+        "text": "Lubricación"
+      }
+    }
+  },
+  "menu-item#1018": {
+    "props": {
+      "id": "menu-item-1018",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manejo-de-material",
+        "noFollow": true,
+        "tagTitle": "Manejo de Material",
+        "text": "Manejo de Material"
+      }
+    }
+  },
+  "menu-item#1039": {
+    "props": {
+      "id": "menu-item-1039",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mantenimiento-de-vehículos-flotillas",
+        "noFollow": true,
+        "tagTitle": "Mantenimiento de Vehículos/Flotillas",
+        "text": "Mantenimiento de Vehículos/Flotillas"
+      }
+    }
+  },
+  "menu-item#1026": {
+    "props": {
+      "id": "menu-item-1026",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinado",
+        "noFollow": true,
+        "tagTitle": "Maquinado",
+        "text": "Maquinado"
       }
     }
   }
